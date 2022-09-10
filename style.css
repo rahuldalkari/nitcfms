@@ -19,7 +19,6 @@ padding: 14px 16px;
 text-decoration: none;
 
 }
-
 .topnav a:hover {
 background-color: #ddd;
 color: rgb(0, 0, 0);
@@ -29,7 +28,46 @@ color: rgb(0, 0, 0);
 background-color: rgb(255, 255, 255);
 color: rgb(0, 153, 255);
 }
+.topnav th.active {
+background-color: rgb(255, 255, 255);
+color: rgb(0, 153, 255);
+background-color: rgb(30, 30, 30);
+}
+.topnav td {
+background-color: rgb(255, 255, 255);
+font-weight: normal;
+}
 
 .topnav-right {
 float: right;
 }
+.center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+table{
+    border-collapse: collapse; 
+    border: 1px solid black;
+}
+table * {
+    border: 1px solid black;
+    padding: 5px;
+    padding: 20px;
+}
+.button {
+    background-color: rgb(0, 153, 255);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 50px;
+  }
